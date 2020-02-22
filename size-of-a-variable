@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  cout<<"size of char;"<<sizeof(char)<<"byte";
+  cout<<"size of int;"<<sizeof(int)<<"byte";
+  cout<<"size of float;"<<sizeof(float)<<"byte";
+  cout<<"size of double;"<<sizeof(double)<<"byte";
+
+  return 0;
+}
