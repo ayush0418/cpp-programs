@@ -1,17 +1,17 @@
-#inclue<iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
-  int a,b,c,d;
-  cout<<"\n enter b";
-  cin>>b;
+  int divisor,dividend,quotient,remainder;
+  cout<<"\n enter dividend";
+  cin>>dividend;
 
-  cout<<"\n enter a";
-  cin>>a;
-  c=b/a;
-  d=b%a
-  cout<<"Quotient ="<<c;
-  cout<<"Remaninder ="<<d;
+  cout<<"\n enter divisor";
+  cin>>divisor;
+  quotient = (dividend / divisor);
+  remainder = (dividend % divisor)
+  cout<<"Quotient ="<<quotient;
+  cout<<"Remaninder ="<<remainder;
 
   return 0;
 }
