@@ -8,8 +8,8 @@ int main()
 
   cout<<"\n enter divisor";
   cin>>divisor;
-  quotient = (dividend / divisor);
-  remainder = (dividend % divisor)
+  quotient = (dividend / divisior);  
+  remainder = (dividend % divisor);
   cout<<"Quotient ="<<quotient;
   cout<<"Remaninder ="<<remainder;
 
