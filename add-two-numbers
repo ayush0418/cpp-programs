@@ -1,0 +1,12 @@
+include<uostream.h>
+int main()
+{
+int a,b,c;
+cout<<"\n enter two numbers";
+cin>>a>>b;
+
+c=a+b;
+cout<<a<<+<<b<<=<<c;
+return0;
+}
+
