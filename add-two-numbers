@@ -6,8 +6,8 @@ int a,b,c;
 cout<<"\n enter two numbers";
 cin>>a>>b;
 
-c=a+b;
-cout<<a<<"+"<<b<<"="<<c;
+c=a+b;                    //value of "a" and "b" is stored in "c"
+cout<<a<<"+"<<b<<"="<<c; //prints sum
 return0;
 }
 
