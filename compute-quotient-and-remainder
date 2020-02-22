@@ -1,0 +1,17 @@
+#inclue<iostream>
+using namespace std;
+int main()
+{
+  int a,b,c,d;
+  cout<<"\n enter b";
+  cin>>b;
+
+  cout<<"\n enter a";
+  cin>>a;
+  c=b/a;
+  d=b%a
+  cout<<"Quotient ="<<c;
+  cout<<"Remaninder ="<<d;
+
+  return 0;
+}
