@@ -5,14 +5,14 @@ int main()
 {
 
  float a,b,c,x1,x2,d,rp,ip;
- cout<<"\n enter coefficient a,b and c";
+ cout<<"\n enter coefficient a,b and c";        //"ax^2+bx+c=0"
  cin>>a>>b>>c;
- d = b*b -4*a*c;
+ d = b*b -4*a*c;                                //discriminant
 
  if (d>0)
  { 
-  x1 = (-b + sqrt(d))/(2*a)
-  x2 = (-b + sqrt(d))/(2*a)
+  x1 = (-b + sqrt(d))/(2*a);                    //first root
+  x2 = (-b + sqrt(d))/(2*a);                   //second root
   cout<<"x1 = "<<x1;
   cout<<"x2 = "<<x2;
  }
@@ -24,8 +24,8 @@ int main()
  }
  else
  {
-  rp = -b/(2*a);
-  ip = sqrt(-d)/(2*a);
+  rp = -b/(2*a);                                    //real part
+  ip = sqrt(-d)/(2*a);                             //imaginary part
   cout<< "roots are complex and different.";
   cout<<"x1 ="<<rp = "+"<<ip<<"i";
   cout<<"x2 ="<<rp = "-"<<ip<<"i";
