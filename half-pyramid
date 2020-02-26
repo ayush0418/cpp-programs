@@ -8,9 +8,9 @@ int main()
        cout<<"\n enter number of rows";
        cin>>rows;
 
-       for(int i=1;i<=rows;i++)
+       for(int i=1;i<=rows;i++)            //it is for printing rows
        {
-            for(int j=1; j<=1; j++)
+            for(int j=1; j<=1; j++)       //it is for printing coloum
 	    {
 	        cout<<"*";
 	    }
