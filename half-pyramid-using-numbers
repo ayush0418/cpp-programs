@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
       int rows;
-      cout<<"\n enter number of rows";
+      cout<<"\n enter number of rows: ";
       cin>>rows;
       
       for(int i=1;i<=rows;i++)               //it will print the rows
@@ -17,3 +17,14 @@ int main()
       }
       return 0;
 }
+
+/*      OUTPUT OF THE PROGRAM
+ 
+        enter number of rows: 5
+	1
+	1 2
+	1 2 3
+	1 2 3 4
+	1 2 3 4 5 
+
+
