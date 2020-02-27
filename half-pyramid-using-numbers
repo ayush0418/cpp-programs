@@ -7,11 +7,11 @@ int main()
       cout<<"\n enter number of rows";
       cin>>rows;
       
-      for(int i=1;i<=rows;i++)
+      for(int i=1;i<=rows;i++)               //it will print the rows
       {
-           for(int j=1;j<=i;j++)
+           for(int j=1;j<=i;j++)              //it will print the coloum 
 	   {
-	   cout<<j<<" ";
+	   cout<<j<<" ";                        //" " this will give the space b/w the numbers in the rows
 	   }
       cout<<"\n";
       }
