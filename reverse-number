@@ -3,17 +3,19 @@ using namespace std;
 
 int main()
 {
-       int n,r=0,d;
+       int n,r=0,d;               // "r" is reversed number an "d" is remainder
        cout<<"enter  an integer";
        cin>>n;
 
        while(n!=0)
        {
-            d=n%10;
-	    r=r*10 + d;
+            d=n%10;               //gives remainder
+	    r=r*10 + d;          
 	    n=n/2;
        
       }
-      cout<<"Reversed Number = "<<r;
+      //this loop will continue till the n becomes zero
+      cout<<"Reversed Number = "<<r;  
       return 0;
 }
+
