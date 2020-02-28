@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
        int n,r=0,d;               // "r" is reversed number an "d" is remainder
-       cout<<"enter  an integer";
+       cout<<"enter  an integer= ";
        cin>>n;
 
        while(n!=0)
@@ -19,3 +19,7 @@ int main()
       return 0;
 }
 
+/*     OUTPUT OF PROGRAM
+        
+	enter an integer= 123
+	Reversed Number = 321
