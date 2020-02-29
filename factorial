@@ -4,7 +4,8 @@ using namespace std;
 int main()
 {
        int n;
-       long fact = 1;
+       long fact = 1;            //fact is factorial 
+                                 //fact is intialize to 1 because it has to multiply with "i" in the  for loop
 
        cout<<"\n enter a positive integer: "; 
        cin>> n;
