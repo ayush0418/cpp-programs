@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+       int n;
+       long fact = 1;
+
+       cout<<"\n enter a positive integer: "
+       cin>> n;
+
+       for(int i=1;i<=n; i++)
+       {
+            fact = fact * i;
+       }
+
+       cout<<"factorial of "<< n <<" = "<< fact;
+       return 0;
+}
