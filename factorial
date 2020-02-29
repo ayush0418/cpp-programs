@@ -25,4 +25,5 @@ int main()
       
       enter a positive integer: 5
       factorial of 5 = 120
+*/
 
