@@ -18,3 +18,11 @@ int main()
        cout<<"factorial of "<< n <<" = "<< fact;
        return 0;
 }
+
+
+/*   OUTPUT OF PROGRAM
+      
+      
+      enter a positive integer: 5
+      factorial of 5 = 120
+
