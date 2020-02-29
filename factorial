@@ -6,7 +6,7 @@ int main()
        int n;
        long fact = 1;
 
-       cout<<"\n enter a positive integer: "
+       cout<<"\n enter a positive integer: "; 
        cin>> n;
 
        for(int i=1;i<=n; i++)
