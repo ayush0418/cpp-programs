@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int fact(int n);
+int fact(int n);                    //recursion method
 
 int main()
 {
@@ -10,7 +10,7 @@ int main()
        cout<<"\n enter a positive integer: ";
        cin>>n;
 
-       cout<<"FACTORIAL OF "<< n <<" = "<<fact(n);
+       cout<<"FACTORIAL OF "<< n <<" = "<<fact(n); //calls the function fact(n)
        return 0;
 }
 
