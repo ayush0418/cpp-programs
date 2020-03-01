@@ -20,4 +20,10 @@ int fact(int n)
          return n*fact(n-1);
      else
          return 1;
-} 
+}
+
+/*     OUTPUT OF PROGRAM
+         
+	enter a positive ineger: 5
+	FACTORIAL OF 6 = 120
+*/
