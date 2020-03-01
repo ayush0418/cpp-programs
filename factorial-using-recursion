@@ -1,0 +1,23 @@
+#inc;ue<iostream>
+using namespace std;
+
+int factorial(int n);
+
+int main()
+{
+       int n;
+
+       cout<<"\n enter a positive integer: "
+       cin>>n;
+
+       cout<<"FACTORIAL OF "<< n <<" = "<<fact(n);
+       return 0;
+}
+
+int fact(int n)
+{
+     if(n>1)
+         return n*fact(n-1);
+     else
+         return 1;
+} 
