@@ -1,13 +1,13 @@
-#inc;ue<iostream>
+#include<iostream>
 using namespace std;
 
-int factorial(int n);
+int fact(int n);
 
 int main()
 {
        int n;
 
-       cout<<"\n enter a positive integer: "
+       cout<<"\n enter a positive integer: ";
        cin>>n;
 
        cout<<"FACTORIAL OF "<< n <<" = "<<fact(n);
