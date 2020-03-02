@@ -1,0 +1,21 @@
+#include<iostream>
+using anmespace std;
+
+int primeno(int);
+
+int main()
+{
+      int n;
+
+      cout<<"\n Enter a positive integer";
+      cin>> n;
+
+      if(primeno(n) == 0)
+          cout<< n <<" is a prime number. ";
+      else
+          cout<< n <<" is not a prime number, ";
+      return 0;
+}
+int primeno.(int n)
+{
+   bool
