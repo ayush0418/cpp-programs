@@ -11,20 +11,33 @@ int main()
 
     while(n>10 || n<=0)
     {
-           cout<<"Error! number should in range of (1 to 10).";
-	   cout<<"Enter the number again: ";
+           cout<<"\n Error! number should in range of (1 to 10).";
+	   cout<<"\n Enter the number again: ";
 	   cin>>n;
     }
 
     for(i=0,i<=n;i++)
     {
-           cout<< i+1<<".enter number:";
+           cout<< i+1<<"\n .enter number: ";
 	   cin>>a[i];
 	   sum = sum +a [i];
     }
 
     average = sum/n;
-    cout<<"Average ="<<average;
+    cout<<"\n \n Average = "<<average;
 
     return 0;
 }
+
+
+/*    OUTPUT OF PROFGRAM
+       
+      enter the number of data: 5
+      
+      1.enter number: 10
+      2.enter number: 20
+      3.enter number: 30
+      4.enter number: 40
+      5.enter number: 50
+      
+      AVERAGE = 30
