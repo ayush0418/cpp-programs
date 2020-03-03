@@ -6,7 +6,7 @@ int main()
     int i,n;
     float a[10],sum=0.0,average;
 
-    cout<< "enter the number of data: ";
+    cout<< "Enter the number of data: ";
     cin>>n;
 
     while(n>10 || n<=0)
@@ -18,7 +18,7 @@ int main()
 
     for(i=0,i<=n;i++)
     {
-           cout<< i+1<<"\n .enter number: ";
+           cout<< i+1<<"\n .Enter number: ";
 	   cin>>a[i];
 	   sum = sum +a [i];
     }
@@ -32,12 +32,12 @@ int main()
 
 /*    OUTPUT OF PROFGRAM
        
-      enter the number of data: 5
+      Enter the number of data: 5
       
-      1.enter number: 10
-      2.enter number: 20
-      3.enter number: 30
-      4.enter number: 40
-      5.enter number: 50
+      1.Enter number: 10
+      2.Enter number: 20
+      3.Enter number: 30
+      4.Enter number: 40
+      5.Enter number: 50
       
       AVERAGE = 30
