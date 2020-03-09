@@ -1,4 +1,4 @@
-#iinclude<iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
@@ -10,7 +10,7 @@ int main()
     cout<<"Enter number of coloums between (1-100): ";
     cin>> c;
 
-    cout<<endl<<"Enter elements of 1st matrix: ";
+    cout<<endl<<"Enter elements of 1st matrix: "<<endl;
 
     for(i=0;i<r;i++)
        for(j=0;j<c;j++)
@@ -19,16 +19,16 @@ int main()
 	  cin>>a[i][j];
        }
     
-    cout<<endl<<Enter elements of 2nd matrix: ";
+    cout<<endl<<"Enter elements of 2nd matrix: "<<endl;
    
     for(i=0;i<r;i++)
-       for(j=0;j<clj++)
+       for(j=0;j<c;j++)
        {
           cout<<"Enter element a"<<i+1<<j+1<<": ";
 	  cin>>b[i][j];
        }
 
-    for(i=o;i<r;i++)
+    for(i=0;i<r;i++)
        for(j=0;j<c;j++)
           sum[i][j] = a[i][j] + b[i][j];
  
