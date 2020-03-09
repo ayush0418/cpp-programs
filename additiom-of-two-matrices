@@ -24,7 +24,7 @@ int main()
     for(i=0;i<r;i++)
        for(j=0;j<c;j++)
        {
-          cout<<"Enter element a"<<i+1<<j+1<<": ";
+          cout<<"Enter element b"<<i+1<<j+1<<": ";
 	  cin>>b[i][j];
        }
 
@@ -45,4 +45,25 @@ int main()
 
 
 
+/*          OUTPUT OF PROGRAM
+            
+	    Enter number of rows between (1-100): 2
+	    Enter number of coloums between (1-100): 2
+
+	    Enter elements of 1st matrix:
+	    Enter element a11: 2
+	    Enter element a12: 3
+	    Enter element a21: 7
+            Enter element a22: 5
+
+            Enter elements of 2nd matrix:
+            Enter element b11: 7
+            Enter element b12: 5
+            Enter element b21: 0
+            Enter element b22: 1
+
+	    sum of two matrix is:
+	    9  8
+            7  6
+*/
 
