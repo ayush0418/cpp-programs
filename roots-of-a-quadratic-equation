@@ -5,8 +5,12 @@ int main()
 {
 
  float a,b,c,x1,x2,d,rp,ip;
- cout<<"\n enter coefficient a,b and c";        //"ax^2+bx+c=0"
- cin>>a>>b>>c;
+ cout<<"\n enter value of a: ";        //"ax^2+bx+c=0"
+ cin>>a;
+ cout<<"\n enter value of b: ";
+ cin>>b;
+ cout<<"\n enter value of c: ";
+ cin>>c;
  d = b*b -4*a*c;                                //discriminant
 
  if (d>0)
@@ -18,7 +22,7 @@ int main()
  }
  else if (d==0)
  {
-  cout<<"both the roots are equal";
+  cout<<"Both the Roots are equal";
   x1 = -b/(2*a);
   cout<<"x1 = x2 = "<<x1;
  }
@@ -32,3 +36,13 @@ int main()
  }
 return 0;
 }
+
+
+/*      OUTPUT OF PROGRAM
+
+        enter value of a: 1
+        enter value of b: 2
+        enter value of c: 1
+        Both the Roots are equal
+        x1 = x2 = -1
+*/
