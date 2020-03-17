@@ -42,7 +42,7 @@ return 0;
 
         enter value of a: 1
         enter value of b: 2
-        enter value of c: 1
+        enter value of c: 1        //Putting value of 'a', 'b' and 'c' we get the value of 'd' as zero
         Both the Roots are equal
         x1 = x2 = -1
 */
