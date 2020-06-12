@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int primeno(int);
+int checkPrimeNo(int);
 
 int main()
 {
@@ -10,12 +10,22 @@ int main()
       cout<<"\n Enter a positive integer";
       cin>> n;
 
-      if(primeno(n) == 0)
+      if(checkPrimeNo(n) == 0)
           cout<< n <<" is a prime number. ";
       else
           cout<< n <<" is not a prime number, ";
       return 0;
 }
-int primeno.(int n)
+int checkPrimeNo.(int n)
 {
-   bool
+   bool flag = false;
+   for(i=2;i<=n/2;i++)
+   {
+      if(n%i==0)
+      {
+         falg = true;
+	 break;
+      }
+      return flag;
+   }
+}
