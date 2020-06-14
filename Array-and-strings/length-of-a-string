@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    char str[] = "C++ Programming is awesome";
+    char str[] = "Ayush Bansal";
 
     // you can also use str.lemgth()
     // you can also use str.size()
@@ -12,4 +12,9 @@ int main()
 
     return 0;
 }
+
+/*  OUTPUT OF THE PROGRAM
+    
+    String Length = 11
+*/
 
