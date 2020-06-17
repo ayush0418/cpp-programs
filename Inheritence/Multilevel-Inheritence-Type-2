@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+// Base class
+class Mammal 
+{
+  public:
+    Mammal()      //  Default Constructor
+    {
+      cout << "Mammals can give direct birth." << endl;
+    }
+};
+
+// Base class
+class WingedAnimal
+{
+  public:
+    WingedAnimal()   // Default Constructor
+    {
+      cout << "Winged animal can flap." << endl;
+    }
+};
+
+// Derived class
+class Bat: public Mammal, public WingedAnimal 
+{
+  public:
+    Bat()       // Default Constructor
+    {
+      cout<<"Bat."<<endl;
+    }
+};
+
+int main()
+{
+    Bat b1;
+    return 0;
+}
+
+/*
+
+                  Output
+
+         Mammals can give direct birth.
+         Winged animal can flap.
+         Bat.
+
+*/
