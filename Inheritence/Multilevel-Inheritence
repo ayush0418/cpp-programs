@@ -1,0 +1,46 @@
+#include <iostream>
+using namespace std;
+
+class A
+{
+    public:
+      void display()
+      {
+          cout<<"Base class content."<<endl;
+      }
+};
+
+class B : public A
+{
+   public:
+   void print()     
+   {     
+      cout<<"class B. "<<endl;
+   }
+};
+
+class C : public B
+{
+    public:
+    void scan()
+    {
+        cout<<"class C."<<endl;
+
+    }
+};
+
+int main()
+{
+    C obj;
+    obj.display();
+    obj.print();
+    obj.scan();
+    return 0;
+}
+
+/* OUTPUT
+
+   Base class content.
+   Class B.
+   Class C.
+*/
