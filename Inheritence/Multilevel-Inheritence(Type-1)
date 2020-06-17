@@ -28,7 +28,6 @@ class C : public B
     void scan()
     {
         cout<<"class C."<<endl;
-
     }
 };
 
@@ -42,7 +41,7 @@ int main()
 }
 
 /* OUTPUT
-
+  
    Base class content.
    Class B.
    Class C.
