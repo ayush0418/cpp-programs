@@ -27,13 +27,6 @@ class MathsTeacher : public Person
        void teachMaths() { cout << "I can teach Maths." << endl; }
 };
 
-// Footballer class is derived from base class Person.
-class Footballer : public Person
-{
-    public:
-       void playFootball() { cout << "I can play Football." << endl; }
-};
-
 int main()
 {
      MathsTeacher teacher;
@@ -41,12 +34,6 @@ int main()
      teacher.age = 23;
      teacher.display();
      teacher.teachMaths();
-
-     Footballer footballer;
-     footballer.profession = "Footballer";
-     footballer.age = 19;
-     footballer.display();
-     footballer.playFootball();
 
      return 0;
 }
@@ -58,9 +45,4 @@ My age is: 23
 I can walk.
 I can talk.
 I can teach Maths.
-My profession is: Footballer
-My age is: 19
-I can walk.
-I can talk.
-I can play Football.
 */
