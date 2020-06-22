@@ -3,10 +3,18 @@ using namespace std;
 
 int main()
 {
-  cout<<"size of char;"<<sizeof(char)<<"byte";
-  cout<<"size of int;"<<sizeof(int)<<"byte";
-  cout<<"size of float;"<<sizeof(float)<<"byte";
-  cout<<"size of double;"<<sizeof(double)<<"byte";
+  cout<<"Size of char is "<<sizeof(char)<<"Byte";
+  cout<<"Sze of int is "<<sizeof(int)<<"Byte";
+  cout<<"Sze of float is "<<sizeof(float)<<"Byte";
+  cout<<"Sze of double is "<<sizeof(double)<<"Byte";
 
   return 0;
 }
+
+/* 
+OUTPUT
+Size of char is 1 Byte                                                                                                                              
+Size of int is 4 Byte                                                                                                                               
+Size of float is 4 Byte                                                                                                                             
+Size of double is 8 Byte 
+*/
